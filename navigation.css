@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.banner{
+    background-image: url(./back\ picture.jpg);
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color:white;
+    font-size: 100px;
+    padding: 30px;
+}
+.menu{
+    background: rgb(92, 85, 85);
+    text-align: center;
+    width: 100%;
+    border-radius: 4px;
+    position: fixed;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.menu ul{
+    list-style: none;
+    display: inline-flex;
+}
+
+.menu ul li{
+    width: 150px;
+    margin: 10px;
+    padding: 15px;
+}
+.menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 18px;
+    border-radius: 3px;
+}
+.menu ul li a:hover{
+    color: black;
+    background-color:white ;
+}
+
+html {
+    scroll-padding: 40px;
+    scroll-behavior: smooth;  
+}
+h4{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 50px;
+}
+#section1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle img{ 
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    float: left;
+    margin: 20px;
+}
+.left{
+    width: 49%;
+    height: 500px;
+    margin-top: 12px;
+    background-color: grey;
+    font-size: 40px;
+    color: white;
+    float: left;
+}
+.left p{
+    font-size: 20px;
+    text-align: justify;
+}
+.part{
+    width: 49%;
+    height: 164px;
+    color: white;
+    float: right;
+    margin-bottom: 5px;
+}
+#Project1{
+    background-image: url(./projects/project-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 3px;
+}
+#Project2{
+    background-image: url(./projects/project-2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+}
+#Project3{
+    background-image: url(./projects/project-3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+}
+.section3{
+    width:100%;
+}
+.section3 h4{
+    float: left;
+    text-align: center;
+}
+.section4{
+    width: 100%;
+    float: left;
+}
+.section4 p{
+    height: 70px;
+    background-color: plum;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 10px;
+}
